@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@esbuild-plugins/node-globals-polyfill": "0.1.1",
-    "openapi-explorer": "0.8.281",
+    "openapi-explorer": "0.8.284",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "rollup-plugin-polyfill-node": "0.9.0"
