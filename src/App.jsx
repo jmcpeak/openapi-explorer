@@ -1,9 +1,9 @@
-import { useState } from "react";
-import logo from "./logo.svg";
-import "openapi-explorer";
-import "./App.css";
+import { useState } from 'react';
+import logo from './logo.svg';
+import 'openapi-explorer';
+import './App.css';
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0);
 
   return (
@@ -42,5 +42,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
