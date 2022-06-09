@@ -6,13 +6,17 @@ import './App.css';
 export default function App() {
   const [count, setCount] = useState(0);
 
+  const handleClick = () => {
+    setCount((count) => count + 1);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <button type="button" onClick={handleClick}>
             count is: {count}
           </button>
         </p>
