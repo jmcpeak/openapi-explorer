@@ -8,15 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@esbuild-plugins/node-globals-polyfill": "0.1.1",
     "openapi-explorer": "0.8.287",
     "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "rollup-plugin-polyfill-node": "0.9.0"
+    "react-dom": "18.1.0"
   },
   "devDependencies": {
-    "@types/react": "18.0.12",
-    "@types/react-dom": "18.0.5",
     "@vitejs/plugin-react": "1.3.2",
     "vite": "2.9.10"
   }
