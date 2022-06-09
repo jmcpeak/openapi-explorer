@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import 'openapi-explorer';
-import './App.css'
+import { useState } from "react";
+import logo from "./logo.svg";
+import "openapi-explorer";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -39,10 +39,10 @@ function App() {
         </p>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
 
 /**
  *  <openapi-explorer spec-url = "https://petstore.swagger.io/v2/swagger.json" />
