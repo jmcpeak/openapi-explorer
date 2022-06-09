@@ -38,12 +38,9 @@ function App() {
           </a>
         </p>
       </header>
+      <openapi-explorer spec-url="https://petstore.swagger.io/v2/swagger.json" />
     </div>
   );
 }
 
 export default App;
-
-/**
- *  <openapi-explorer spec-url = "https://petstore.swagger.io/v2/swagger.json" />
- */
